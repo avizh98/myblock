@@ -1,0 +1,9 @@
+Public address of the key node 1:   0xF65BdE849c7992815eC9e445A9A97F9BB38694a2
+pass - 123
+
+Public address of the key node 2:   0x7E4401406b2a25F4a1D2C2f088ec42d1aa30531D
+pass - 123
+
+bootnode - enode://55c40471a069782012eaec74adcfcdff7f42a0be2c282bd18e0bdc38683651a73f1efee9b41052e9f9fb1913e0c0d1f39543e6e74151e91e2c4c7a7aadd1703f@127.0.0.1:0?discport=30301
+
+geth --networkid 1936 --datadir "./data" --bootnodes enode://55c40471a069782012eaec74adcfcdff7f42a0be2c282bd18e0bdc38683651a73f1efee9b41052e9f9fb1913e0c0d1f39543e6e74151e91e2c4c7a7aadd1703f@127.0.0.1:0?discport=30301 --port=30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0xF65BdE849c7992815eC9e445A9A97F9BB38694a2 --password password.txt --mine console

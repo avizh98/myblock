@@ -1,0 +1,8 @@
+=============== Jul 19, 2023 (+0530) ===============
+14:16:53.949290 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:16:54.030116 db@open opening
+14:16:54.032109 version@stat F·[] S·0B[] Sc·[]
+14:16:54.153906 db@janitor F·2 G·0
+14:16:54.153906 db@open done T·123.7897ms
+14:16:54.256336 db@close closing
+14:16:54.256336 db@close done T·0s
